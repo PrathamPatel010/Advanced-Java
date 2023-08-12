@@ -105,12 +105,10 @@ public class Main {
                 System.out.println("Student not found");
                 return;
             }
-            while (rs.next()){
-                id = rs.getInt("ID");
-                String name = rs.getString("Name");
-                System.out.println("Student Found!!");
-                System.out.println("ID:" + id + " Name:" + name);
-            }
+            id = rs.getInt("ID");
+            String name = rs.getString("Name");
+            System.out.println("Student Found!!");
+            System.out.println("ID:" + id + " Name:" + name);
         } catch (Exception e){
             System.out.println(e.getMessage());
         }
