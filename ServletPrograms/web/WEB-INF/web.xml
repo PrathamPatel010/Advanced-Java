@@ -4,9 +4,49 @@
         <servlet-name>DisplayData</servlet-name>
         <servlet-class>Practical2.DisplayData</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddStudent</servlet-name>
+        <servlet-class>Practical3.AddStudent</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditStudent</servlet-name>
+        <servlet-class>Practical3.EditStudent</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteStudent</servlet-name>
+        <servlet-class>Practical3.DeleteStudent</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SearchStudent</servlet-name>
+        <servlet-class>Practical3.SearchStudent</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ViewAllStudent</servlet-name>
+        <servlet-class>Practical3.ViewAllStudent</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>DisplayData</servlet-name>
         <url-pattern>/DisplayData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddStudent</servlet-name>
+        <url-pattern>/AddStudent</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditStudent</servlet-name>
+        <url-pattern>/EditStudent</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteStudent</servlet-name>
+        <url-pattern>/DeleteStudent</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchStudent</servlet-name>
+        <url-pattern>/SearchStudent</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewAllStudent</servlet-name>
+        <url-pattern>/ViewAllStudent</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
