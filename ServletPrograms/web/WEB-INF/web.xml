@@ -36,6 +36,14 @@
             <param-value>ppratham812@gmail.com</param-value>
         </init-param>
     </servlet>
+    <servlet>
+        <servlet-name>FirstServlet</servlet-name>
+        <servlet-class>Practical6.FirstServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>Practical6.SecondServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>DisplayData</servlet-name>
         <url-pattern>/DisplayData</url-pattern>
@@ -63,6 +71,14 @@
     <servlet-mapping>
         <servlet-name>EmailServlet</servlet-name>
         <url-pattern>/EmailServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FirstServlet</servlet-name>
+        <url-pattern>/FirstServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SecondServlet</servlet-name>
+        <url-pattern>/SecondServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
