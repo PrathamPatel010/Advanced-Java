@@ -7,7 +7,7 @@ import javax.servlet.http.*;
 public class EmailServlet extends HttpServlet {
     String personalMail="";
     String collegeMail="";
-    private int appHitCount=0;
+    public static int appHitCount=0;
     private int servletHitCount=0;
     public void init(ServletConfig config){
         try{
