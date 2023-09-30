@@ -16,3 +16,18 @@ JDBC/out
 /JSP/Practical8/build.xml
 /JSP/Practical8/src/conf
 
+/JSP/Practical9/nbproject/private/
+/JSP/Practical9/build/
+/Hibernate/Practical10/nbproject/private/
+/Hibernate/Practical10/build/
+/Spring/Practical11/nbproject/private/
+
+Hibernate/Practical10/lib
+Hibernate/Practical10/nbproject
+Hibernate/Practical10/src/conf
+
+/JSP/Practical9/lib
+/JSP/Practical9/nbproject
+/JSP/Practical9/src/conf
+/JSP/Practical9/build.xml
+Hibernate/Practical10/build.xml
