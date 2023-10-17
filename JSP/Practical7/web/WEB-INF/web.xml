@@ -20,6 +20,10 @@
         <servlet-name>ListUsers</servlet-name>
         <servlet-class>ListUsers</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>add</servlet-name>
+        <servlet-class>add</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CreateUser</servlet-name>
         <url-pattern>/CreateUser</url-pattern>
@@ -39,6 +43,10 @@
     <servlet-mapping>
         <servlet-name>ListUsers</servlet-name>
         <url-pattern>/ListUsers</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>add</servlet-name>
+        <url-pattern>/add</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
